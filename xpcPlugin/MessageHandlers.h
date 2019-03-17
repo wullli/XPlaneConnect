@@ -9,6 +9,7 @@
 
 namespace XPC
 {
+	extern int crashed_flag;
 	/// A function that handles a message.
 	typedef void(*MessageHandler)(const Message&);
 
@@ -46,6 +47,7 @@ namespace XPC
 		static void HandleGetC(const Message& msg);
 		static void HandleGetD(const Message& msg);
 		static void HandleCmnd(const Message& msg);
+		static void HandleCrsh(const Message & msg);
 		static void HandleGetP(const Message& msg);
 		static void HandlePosi(const Message& msg);
 		static void HandleSimu(const Message& msg);

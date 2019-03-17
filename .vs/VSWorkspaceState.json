@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\xpcPlugin",
+    "\\xpcPlugin\\SDK",
+    "\\xpcPlugin\\SDK\\CHeaders",
+    "\\xpcPlugin\\SDK\\CHeaders\\XPLM",
+    "\\xpcPlugin\\SDK\\Delphi\\XPLM",
+    "\\xpcPlugin\\SDK\\Libraries\\Win"
+  ],
+  "SelectedNode": "\\xpcPlugin\\MessageHandlers.cpp",
+  "PreviewInSolutionExplorer": false
+}

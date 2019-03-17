@@ -26,6 +26,7 @@
 
 namespace XPC
 {
+	int crashed_flag = 0;
 	std::map<std::string, MessageHandlers::ConnectionInfo> MessageHandlers::connections;
 	std::map<std::string, MessageHandler> MessageHandlers::handlers;
 
@@ -51,6 +52,7 @@ namespace XPC
 			handlers.insert(std::make_pair("DREF", MessageHandlers::HandleDref));
 			handlers.insert(std::make_pair("CMND", MessageHandlers::HandleCmnd));
 			handlers.insert(std::make_pair("GETD", MessageHandlers::HandleGetD));
+			handlers.insert(std::make_pair("CRSH", MessageHandlers::HandleCrsh));
 			handlers.insert(std::make_pair("POSI", MessageHandlers::HandlePosi));
 			handlers.insert(std::make_pair("SIMU", MessageHandlers::HandleSimu));
 			handlers.insert(std::make_pair("TEXT", MessageHandlers::HandleText));
@@ -535,6 +537,23 @@ namespace XPC
 		{
 			Log::WriteLine(LOG_ERROR, "DREF", "ERROR: Command did not terminate at the expected position.");
 		}
+	}	
+	
+	void MessageHandlers::HandleCrsh(const Message & msg)
+	{
+		const unsigned char* buffer = msg.GetBuffer();
+		std::size_t size = msg.GetSize();
+		if (size != 5)
+		{
+			Log::FormatLine(LOG_ERROR, "CRSH", "Unexpected message length: %u", size);
+			return;
+		}
+		Log::FormatLine(LOG_TRACE, "CRSH", "Getting crash flag");
+
+		unsigned char response[6] = "CRSH";
+		response[5] = (char)XPC::crashed_flag;
+		sock->SendTo(response, 6, &connection.addr);
+		XPC::crashed_flag = 0;
 	}
 
 	void MessageHandlers::HandleGetP(const Message& msg)

@@ -72,6 +72,7 @@
 
 #define RECVPORT 49009 // Port that the plugin receives commands on
 #define OPS_PER_CYCLE 20 // Max Number of operations per cycle
+#define XPLM_MSG_PLANE_CRASHED 101
 
 XPC::UDPSocket* sock = NULL;
 
@@ -155,8 +156,9 @@ PLUGIN_API int XPluginEnable(void)
 
 PLUGIN_API void XPluginReceiveMessage(XPLMPluginID inFromWho, int inMessage, void* inParam)
 {
-	// XPC doesn't have anything useful to say to other plugins, so simply ignore
-	// any messages received.
+	if (inMessage == XPLM_MSG_PLANE_CRASHED) {
+		XPC::crashed_flag = 1;
+	}
 }
 
 float XPCFlightLoopCallback(float inElapsedSinceLastCall,
