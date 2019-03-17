@@ -1,0 +1,268 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../C/src/xplaneConnect.h
+stdlib.h
+../C/src/stdlib.h
+winsock2.h
+-
+ws2tcpip.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+
+C:/git/bda/XPlaneConnect/C/monitorExample/main.c
+../src/xplaneConnect.h
+C:/git/bda/XPlaneConnect/C/src/xplaneConnect.h
+sys/time.h
+-
+stdio.h
+C:/git/bda/XPlaneConnect/C/monitorExample/stdio.h
+
+C:/git/bda/XPlaneConnect/C/playbackExample/src/chrome.c
+chrome.h
+C:/git/bda/XPlaneConnect/C/playbackExample/src/chrome.h
+stdio.h
+-
+
+C:/git/bda/XPlaneConnect/C/playbackExample/src/chrome.h
+stdlib.h
+-
+
+C:/git/bda/XPlaneConnect/C/playbackExample/src/main.c
+chrome.h
+C:/git/bda/XPlaneConnect/C/playbackExample/src/chrome.h
+playback.h
+C:/git/bda/XPlaneConnect/C/playbackExample/src/playback.h
+
+C:/git/bda/XPlaneConnect/C/playbackExample/src/playback.c
+playback.h
+C:/git/bda/XPlaneConnect/C/playbackExample/src/playback.h
+chrome.h
+C:/git/bda/XPlaneConnect/C/playbackExample/src/chrome.h
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/C/playbackExample/src/xplaneConnect.h
+stdio.h
+-
+time.h
+-
+Windows.h
+-
+unistd.h
+-
+
+C:/git/bda/XPlaneConnect/C/playbackExample/src/playback.h
+
+C:/git/bda/XPlaneConnect/C/src/xplaneConnect.c
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/C/src/xplaneConnect.h
+math.h
+-
+stdarg.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+time.h
+-
+sys/time.h
+-
+
+C:/git/bda/XPlaneConnect/C/src/xplaneConnect.h
+stdlib.h
+C:/git/bda/XPlaneConnect/C/src/stdlib.h
+winsock2.h
+-
+ws2tcpip.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/closeUDP.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/getCTRL.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/getDREFs.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/getPOSI.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/openUDP.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/pauseSim.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/readDATA.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/selectDATA.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendCTRL.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendDATA.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendDREF.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendDREFs.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendPOSI.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendTEXT.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendVIEW.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendWYPT.m
+
+C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/setConn.m
+
+C:/git/bda/XPlaneConnect/MATLAB/Example/Example.m
+
+C:/git/bda/XPlaneConnect/MATLAB/MonitorExample/MonitorExample.m
+
+C:/git/bda/XPlaneConnect/MATLAB/PlaybackExample/Playback.m
+
+C:/git/bda/XPlaneConnect/MATLAB/PlaybackExample/Record.m
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/CtrlTests.h
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/xplaneConnect.h
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/DataTests.h
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/xplaneConnect.h
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/DrefTests.h
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/xplaneConnect.h
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/PosiTests.h
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/xplaneConnect.h
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/SimuTests.h
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/xplaneConnect.h
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.c
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+string.h
+-
+math.h
+-
+unistd.h
+-
+windows.h
+-
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/TextTests.h
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/xplaneConnect.h
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/UDPTests.h
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/xplaneConnect.h
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/ViewTests.h
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/xplaneConnect.h
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/WyptTests.h
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+xplaneConnect.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/xplaneConnect.h
+
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/main.c
+Test.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h
+UDPTests.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/UDPTests.h
+DrefTests.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/DrefTests.h
+SimuTests.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/SimuTests.h
+CtrlTests.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/CtrlTests.h
+PosiTests.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/PosiTests.h
+DataTests.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/DataTests.h
+TextTests.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/TextTests.h
+ViewTests.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/ViewTests.h
+WyptTests.h
+C:/git/bda/XPlaneConnect/TestScripts/C Tests/WyptTests.h
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/DATATest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/getCTRLTest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/getDREFsTest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/getPOSITest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/openCloseTest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/pauseTest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendCTRLTest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendDREFTest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendPOSITest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendTEXTTest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendVIEWTest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendWYPTTest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/setConnTest.m
+
+C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/tests.m
+

@@ -1,0 +1,1 @@
+-IC:/git/bda/XPlaneConnect/C/playbackExample/src -IC:/git/bda/XPlaneConnect/C/src -I"C:/git/bda/XPlaneConnect/TestScripts/C Tests" -IC:/git/bda/XPlaneConnect/xpcPlugin -IC:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Widgets -IC:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers -IC:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM 

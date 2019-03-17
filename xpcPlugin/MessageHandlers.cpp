@@ -49,6 +49,7 @@ namespace XPC
 			handlers.insert(std::make_pair("CTRL", MessageHandlers::HandleCtrl));
 			handlers.insert(std::make_pair("DATA", MessageHandlers::HandleData));
 			handlers.insert(std::make_pair("DREF", MessageHandlers::HandleDref));
+			handlers.insert(std::make_pair("CMND", MessageHandlers::HandleCmnd));
 			handlers.insert(std::make_pair("GETD", MessageHandlers::HandleGetD));
 			handlers.insert(std::make_pair("POSI", MessageHandlers::HandlePosi));
 			handlers.insert(std::make_pair("SIMU", MessageHandlers::HandleSimu));
@@ -508,6 +509,32 @@ namespace XPC
 		}
 
 		sock->SendTo(response, cur, &connection.addr);
+	}
+
+	void MessageHandlers::HandleCmnd(const Message & msg)
+	{
+		Log::FormatLine(LOG_TRACE, "CMND", "Request to execute command (Conn %i)", connection.id);
+		const unsigned char* buffer = msg.GetBuffer();
+		std::size_t size = msg.GetSize();
+		std::size_t pos = 5;
+		while (pos < size)
+		{
+			unsigned char len = buffer[pos++];
+			if (pos + len > size)
+			{
+				break;
+			}
+			std::string cmd = std::string((char*)buffer + pos, len);
+			pos += len;
+
+			XPLMCommandOnce(XPLMFindCommand(cmd.c_str()));
+
+			Log::FormatLine(LOG_DEBUG, "DREF", "Execute command %s", cmd.c_str());
+		}
+		if (pos != size)
+		{
+			Log::WriteLine(LOG_ERROR, "DREF", "ERROR: Command did not terminate at the expected position.");
+		}
 	}
 
 	void MessageHandlers::HandleGetP(const Message& msg)

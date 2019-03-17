@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="XPlaneConnect"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/git/bda/XPlaneConnect/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="XPlaneConnect">
+				<Option output="C:/git/bda/XPlaneConnect/cmake-build-debug/XPlaneConnect.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/git/bda/XPlaneConnect/C/playbackExample/src"/>
+					<Add directory="C:/git/bda/XPlaneConnect/C/src"/>
+					<Add directory="C:/git/bda/XPlaneConnect/TestScripts/C Tests"/>
+					<Add directory="C:/git/bda/XPlaneConnect/xpcPlugin"/>
+					<Add directory="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Widgets"/>
+					<Add directory="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers"/>
+					<Add directory="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 XPlaneConnect"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="XPlaneConnect/fast">
+				<Option output="C:/git/bda/XPlaneConnect/cmake-build-debug/XPlaneConnect.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/git/bda/XPlaneConnect/C/playbackExample/src"/>
+					<Add directory="C:/git/bda/XPlaneConnect/C/src"/>
+					<Add directory="C:/git/bda/XPlaneConnect/TestScripts/C Tests"/>
+					<Add directory="C:/git/bda/XPlaneConnect/xpcPlugin"/>
+					<Add directory="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Widgets"/>
+					<Add directory="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers"/>
+					<Add directory="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 XPlaneConnect/fast"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/git/bda/XPlaneConnect/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/git/bda/XPlaneConnect/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/git/bda/XPlaneConnect/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/git/bda/XPlaneConnect/C/monitorExample/main.c">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/C/playbackExample/src/chrome.c">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/C/playbackExample/src/chrome.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/C/playbackExample/src/main.c">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/C/playbackExample/src/playback.c">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/C/playbackExample/src/playback.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/C/src/xplaneConnect.c">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/C/src/xplaneConnect.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/C/xpcExample/xpcExample/src/main.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/closeUDP.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/getCTRL.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/getDREFs.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/getPOSI.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/openUDP.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/pauseSim.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/readDATA.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/selectDATA.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendCTRL.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendDATA.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendDREF.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendDREFs.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendPOSI.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendTEXT.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendVIEW.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/sendWYPT.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/+XPlaneConnect/setConn.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/Example/Example.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/MonitorExample/MonitorExample.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/PlaybackExample/Playback.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/MATLAB/PlaybackExample/Record.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/CtrlTests.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/DataTests.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/DrefTests.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/PosiTests.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/SimuTests.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.c">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/Test.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/TextTests.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/UDPTests.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/ViewTests.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/WyptTests.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/C Tests/main.c">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/DATATest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/getCTRLTest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/getDREFsTest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/getPOSITest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/openCloseTest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/pauseTest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendCTRLTest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendDREFTest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendPOSITest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendTEXTTest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendVIEWTest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/sendWYPTTest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/setConnTest.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/TestScripts/MATLAB Tests/tests.m">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/DataManager.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/DataManager.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/Drawing.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/Drawing.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/Log.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/Log.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/Message.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/Message.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/MessageHandlers.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/MessageHandlers.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Widgets/XPStandardWidgets.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Widgets/XPUIGraphics.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Widgets/XPWidgetDefs.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Widgets/XPWidgetUtils.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Widgets/XPWidgets.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCBroadcaster.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCBroadcaster.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCDisplay.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCDisplay.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCListener.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCListener.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCProcessing.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCProcessing.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCWidget.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCWidget.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCWidgetAttachments.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/Wrappers/XPCWidgetAttachments.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMCamera.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMDataAccess.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMDefs.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMDisplay.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMGraphics.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMMenus.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMNavigation.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMPlanes.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMPlugin.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMProcessing.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMScenery.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/SDK/CHeaders/XPLM/XPLMUtilities.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/UDPSocket.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/UDPSocket.h">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/xpcPlugin/XPCPlugin.cpp">
+			<Option target="XPlaneConnect"/>
+		</Unit>
+		<Unit filename="C:/git/bda/XPlaneConnect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

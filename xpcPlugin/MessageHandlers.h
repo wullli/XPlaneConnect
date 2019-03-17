@@ -45,6 +45,7 @@ namespace XPC
 		static void HandleDref(const Message& msg);
 		static void HandleGetC(const Message& msg);
 		static void HandleGetD(const Message& msg);
+		static void HandleCmnd(const Message& msg);
 		static void HandleGetP(const Message& msg);
 		static void HandlePosi(const Message& msg);
 		static void HandleSimu(const Message& msg);

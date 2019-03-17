@@ -1,0 +1,3 @@
+C:/git/bda/XPlaneConnect/cmake-build-debug/CMakeFiles/XPlaneConnect.dir
+C:/git/bda/XPlaneConnect/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/git/bda/XPlaneConnect/cmake-build-debug/CMakeFiles/rebuild_cache.dir
